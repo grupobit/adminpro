@@ -1,0 +1,13 @@
+Instalación de componente
+--------------------------
+ng g c nopagefound --spec=false -is
+ng g c pages/pages --flat -is --spec=false
+    --flat --> Para no crear directorio
+
+
+Instalación de servicio:
+------------------------
+ng g s shared --spec=false
+
+
+
