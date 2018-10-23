@@ -4,6 +4,11 @@ Author: Wrappixel
 Email: niravjoshi87@gmail.com
 File: js
 */
+
+// Creamos una funcion llamada init_plugins() que encaptula dodo el js.
+// Esto en necesario para poder llamarla desde Angular.
+function init_plugins() {
+
 $(function() {
     "use strict";
     $(function() {
@@ -155,3 +160,5 @@ $(function() {
     });
 
 });
+
+}
