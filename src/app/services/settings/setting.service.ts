@@ -13,7 +13,9 @@ export class SettingService {
   }
   
 
-  constructor(@Inject(DOCUMENT) private _document) { this.cargarAjustes(); }
+  constructor(@Inject(DOCUMENT) private _document) { 
+    this.cargarAjustes(); 
+  }
 
   guardarAjustes(){
 

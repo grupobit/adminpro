@@ -11,6 +11,7 @@ ng g s shared --spec=false
 
 ng g c pages/accoutSettings -m="pages/pages.module.ts" --spec=false -is
 ng g s services/setting  -m="app.module.ts" --spec=false
+ng g g services/guards/loginGuard --spec=false
 
 
 
