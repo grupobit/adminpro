@@ -8,19 +8,23 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 
+// Pipes Module
+import { PipesModule } from '../pipes/pipes.module';
+
 
 
 
 @NgModule({
     imports: [
         RouterModule,
-        CommonModule
+        CommonModule,
+        PipesModule
     ],
     declarations: [
         HeaderComponent,
         SidebarComponent,
         BreadcrumbsComponent,
-        NopagefoundComponent
+        NopagefoundComponent,
     ],
     exports: [
         HeaderComponent,
