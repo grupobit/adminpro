@@ -3,8 +3,8 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { UsuarioService } from '../services/service.index';
 import { Usuario } from '../models/usuario.model';
-import { element } from 'protractor';
-import { Profile } from 'selenium-webdriver/firefox';
+// import { element } from 'protractor';
+// import { Profile } from 'selenium-webdriver/firefox';
 
 
 declare function init_plugins();
@@ -46,11 +46,7 @@ export class LoginComponent implements OnInit {
         cookiepolicy: 'single_host_origin',
         acope: 'profile, email'
       });
-
       this.attachSignin( document.getElementById('btnGoogle') );
-
-
-
     });
   }
 
